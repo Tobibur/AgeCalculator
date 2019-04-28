@@ -13,7 +13,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="@dimen/button_padding"
+            android:paddingTop="@dimen/button_padding"
+            android:paddingStart="@dimen/button_padding"
+            android:paddingEnd="@dimen/button_padding"
+            android:paddingBottom="@dimen/sixteen"
             android:gravity="center">
 
         <Button
@@ -71,7 +74,7 @@
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/layout_margin"
+            android:layout_marginTop="@dimen/sixteen"
             android:layout_marginStart="@dimen/layout_margin"
             android:layout_marginEnd="@dimen/layout_margin"
             android:orientation="vertical"
@@ -104,7 +107,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/evaluate"
-            android:layout_margin="@dimen/layout_margin"
+            android:layout_marginStart="@dimen/layout_margin"
+            android:layout_marginEnd="@dimen/layout_margin"
+            android:layout_marginBottom="@dimen/layout_margin"
+            android:layout_marginTop="20dp"
             android:background="@drawable/round_button"
             android:paddingStart="@dimen/button_padding"
             android:paddingLeft="@dimen/button_padding"
